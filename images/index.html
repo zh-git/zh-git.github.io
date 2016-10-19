@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin:0;
+			padding: 0;}
+		.slider{
+			margin:auto 200px;
+			position: relative;
+			width: 730px;
+			height: 453px;
+			float: left;
+			
+		}
+		.circle{
+			position: absolute;
+			left: 50%;
+			list-style: none;
+			bottom:0px;
+			left: 50%;
+			margin-left: -75px;
+
+		}
+		.circle li{
+			float: left;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			background-color: #ccc;
+			border-radius: 50%;
+			text-align: center;
+			
+		}
+		.cut {
+			width: 730px;
+			position: absolute;
+			height: 40px;
+			top: 50%;
+			margin-top: -20px;
+
+		}
+		.cut a{
+			text-decoration: none;
+			font-size: 18px;
+			
+			color: #fff;
+		}
+		.cut .left{
+			float: left;
+			
+		}
+		.cut .right{
+			float: right;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="slider">
+		<a href="#"><img src="slider1.jpg" alt=""></a>
+		<ul class="circle">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+		</ul>
+		 <div class="cut">
+			<a href="javascript:;" class="left"> < </a>
+			<a href="javascript:;" class="right"> > </a>
+		</div>
+	</div>
+</body>
+</html>

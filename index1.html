@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.bu{background-color: pink;}
+	</style>
+	<script>
+		window.onload = function(){
+			var btn = document.getElementsByTagName("button");
+			for (var i = 0; i < btn.length; i++) {
+				btn[i].onclick = function (){
+					for (var i = 0; i < btn.length; i++) {
+						btn[i].className ='';
+					};
+
+					this.className = 'bu';
+				}
+			};
+		}
+	</script>
+</head>
+<body>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+	<button>思想汇报</button>
+</body>
+</html>

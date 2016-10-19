@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	window.onload = function(){
+	var inp = document.getElementById("in");
+	inp.focus();
+	
+	var text = document.getElementById("text");
+	text.onmouseover = function(){
+		this.select();
+	}
+	}
+	</script>
+</head>
+<body>
+	<input id="in" type="text"  placeholder="魅力的中国">
+	<input type="text" id="text">
+</body>
+</html>
